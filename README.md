@@ -1,7 +1,7 @@
 # URL Shortener Backend
 
 A production-ready **URL Shortener backend service** built using **Node.js, Restify, and MongoDB**.  
-The application follows a clean, scalable architecture with clear separation of concerns and is designed for easy frontend integration (React or any SPA).
+The application follows a clean, scalable architecture with clear separation of concerns and is designed for easy frontend integration (React).
 
 ---
 
