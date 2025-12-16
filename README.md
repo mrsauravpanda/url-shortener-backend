@@ -1,6 +1,6 @@
 # URL Shortener Backend
 
-A production-ready **URL Shortener backend service** built using **Node.js, Restify, and MongoDB**.  
+A production-ready **URL Shortener backend service** built using **Node.js, Express.js, and MongoDB**.  
 The application follows a clean, scalable architecture with clear separation of concerns and is designed for easy frontend integration (React).
 
 ---
@@ -21,7 +21,7 @@ The application follows a clean, scalable architecture with clear separation of 
 ## Tech Stack
 
 - **Node.js**
-- **Restify** – REST API framework
+- **Express.js** – REST API framework
 - **MongoDB** – NoSQL database
 - **Mongoose** – ODM for MongoDB
 - **dotenv** – Environment variable management
@@ -34,7 +34,7 @@ The application follows a clean, scalable architecture with clear separation of 
 ```
 backend/
 ├── src/
-│   ├── app.js                  # Restify app setup
+│   ├── app.js                  # Express app setup
 │   ├── server.js               # Server bootstrap
 │
 │   ├── config/
@@ -60,9 +60,6 @@ backend/
 │   ├── utils/
 │   │   ├── validator.js        # URL validation
 │   │   └── codeGenerator.js    # Short code generator
-│
-│   └── middlewares/
-│       └── errorHandler.js     # (Future) Centralized error handling
 │
 ├── .env
 ├── package.json
