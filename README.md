@@ -147,29 +147,6 @@ http://localhost:3000
 
 ---
 
-## Testing (Planned)
-
-The structure supports:
-- Unit tests
-- Integration tests
-- In-memory MongoDB testing
-
-Recommended tools:
-Mocha, Chai, Sinon, Supertest, mongodb-memory-server
-
----
-
-## Future Enhancements
-
-- URL analytics API
-- Rate limiting
-- Authentication
-- Custom short codes
-- Request logging
-- Docker support
-
----
-
 ## License
 
 MIT
