@@ -1,6 +1,6 @@
 import { resolveShortUrl } from '../services/url.service.js';
 
-export async function redirect(req, res) {
+export const redirect = async (req, res) => {
   try {
     const url = await resolveShortUrl(req.params.shortCode);
     res.redirect(url.originalUrl);
