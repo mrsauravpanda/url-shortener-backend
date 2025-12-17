@@ -1,7 +1,7 @@
 # URL Shortener Backend
 
 A production-ready **URL Shortener backend service** built using **Node.js, Express.js, and MongoDB**.  
-The application follows a clean, scalable architecture with clear separation of concerns and is designed for easy frontend integration (React).
+The application follows a clean, scalable architecture with clear separation of concerns and is designed for easy frontend integration.
 
 ---
 
@@ -10,11 +10,7 @@ The application follows a clean, scalable architecture with clear separation of 
 - Create shortened URLs from long URLs
 - Optional expiry for shortened URLs
 - Redirect short URLs to original destinations
-- Click tracking for each shortened URL
-- Input validation and error handling
-- MongoDB indexing for fast lookups
 - Clean service–repository architecture
-- Environment-based configuration
 
 ---
 
